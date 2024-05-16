@@ -1,0 +1,18 @@
+﻿@model SectionCreateViewModel
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post" style="width:40vw">
+    <div style="margin:10px">
+        <input asp-for="Name" placeholder="Name" class="form-control" />
+    </div>
+    <div style="margin:10px">
+        <select asp-for="BranchIds" asp-items="Model.Branchs" placeholder="Branch name" class="form-control"></select>
+    </div>
+    <div style="width:20%; display:flex; justify-content:space-between; margin:0 auto">
+        <button style="margin-right:10px" class="btn btn-success" type="submit">Create</button>
+        <a asp-action="index" class="btn btn-danger">Cancel</a>
+    </div>
+</form>

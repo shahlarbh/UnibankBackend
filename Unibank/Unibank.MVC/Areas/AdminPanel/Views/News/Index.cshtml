@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewData["Title"] = "News";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model List<News>
+
+<div class="w-100">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">News Table</h4>
+            <a class="btn btn-success" asp-controller="news" asp-action="create">Create</a>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th>BroadcastDate</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.OrderByDescending(n => n.Id).ToList())
+                        {
+                            <tr>
+                                <td>@item.Title</td>
+                                <td>@Html.Raw(item.Description.Length > 400 ? item.Description.Substring(0, 400) + "..." : item.Description)</td>
+                                <td>@item.BroadcastDate</td>
+                                <td>
+                                    <a class="btn btn-success" asp-action="update" asp-route-id="@item.Id">Update</a>
+                                    <a class="btn btn-warning" asp-action="details" asp-route-id="@item.Id">Details</a>
+                                    <form asp-action="delete" method="post">
+                                        <button type="submit" class="btn btn-danger" asp-action="delete" asp-route-id="@item.Id">Delete</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

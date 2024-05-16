@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "Rəqəmsal bankçılıq / Unibank";
+}
+@{
+    DigitalBankingViewModel model = Model;
+    var digitalBankings = model.DigitalBankings;
+}
+
+<main>
+    <section>
+        <div class="custom_container">
+            <div class="title">
+                <h1>Rəqəmsal bankçılıq</h1>
+            </div>
+            <!-- Digital banking -->
+            <div class="digital_banking row">
+                @foreach (var digitalBanking in digitalBankings)
+                {
+                    <div class="col-lg-4">
+                        <div class="digital_box" data-url="@digitalBanking.PageUrl">
+                            <div class="digital_icon">
+                                <i class="@digitalBanking.Icon"></i>
+                            </div>
+                            <div class="digital_info">
+                                <h1>@digitalBanking.PageTitle</h1>
+                                <p>@digitalBanking.Description</p>
+                            </div>
+                            <i class="fa-solid fa-chevron-right right_arrow d-none"></i>
+                        </div>
+                    </div>
+                }
+            </div>
+            <!-- End of the digital banking -->
+        </div>
+    </section>
+</main>
+
+

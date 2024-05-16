@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewData["Title"] = "Vakansiyalar / İnsan resursları / Unibank";
+}
+@{
+    VacancyViewModel model = Model;
+    var pageLinks = model.PageLinks;
+    var vacancies = model.Vacancies;
+}
+
+<main>
+    <section>
+        <div class="custom_container">
+            <div class="page_title">
+                <h1>İnsan resursları</h1>
+            </div>
+            <div class="hr_links">
+                @foreach(var pageLink in pageLinks)
+                {
+                    <a href="@pageLink.PageUrl">@pageLink.PageTitle</a>
+                }
+            </div>
+            <!-- Vacancies -->
+            <div class="vacancies">
+                @foreach(var vacancy in vacancies)
+                {
+                    <div class="vacancy row">
+                        <div class="col-lg-10">
+                            <div class="vacancy_info">
+                                <h1>@vacancy.VacancyTitle</h1>
+                                <p>@vacancy.Deadline</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="vacancy_link">
+                                <a href="#">Müraciət et <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <!-- End of the vacancies -->
+        </div>
+    </section>
+</main>
+

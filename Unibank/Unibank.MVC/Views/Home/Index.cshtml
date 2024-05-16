@@ -1,0 +1,291 @@
+﻿@{
+    ViewData["Title"] = "Unibank";
+}
+@{
+    HomeViewModel model = Model;
+    var sliders = model.Sliders;
+    var crossBoxes = model.CrossBoxes;
+    var uCardIndexs = model.UCardIndexs;
+    var uCardTabs = model.UCardTabs;
+    var uBanks = model.UBanks;
+    var uBankImages = model.UBankImages;
+    var exchanges = model.Exchanges;
+    var firstCurrencyBoxes = model.FirstCurrencyBoxes;
+    var secondCurrencyBoxes = model.SecondCurrencyBoxes;
+    var connectionBanners = model.ConnectionBanners;
+    var news = model.NewsList;
+}
+
+<main>
+    <section>
+        <div class="custom_container">
+            <!-- Slider carusel -->
+            <div class="carusel_panel">
+                <div class="carusel">
+                    <div class="slider">
+                        <!-- Responsive slider pages -->
+                        @foreach (var slider in sliders)
+                        {
+                            <div class="mobile_slider_page">
+                                <div class="slider_info">
+                                    <h1>@Html.Raw(slider.Title)</h1>
+                                    <p>@slider.Description</p>
+                                    <a href="@slider.Url">Ətraflı</a>
+                                </div>
+                                <div class="slider_img">
+                                    <img src="~/assets/image/@slider.SliderImage" alt="">
+                                </div>
+                            </div>
+                        }
+                        <!-- End of the responsive slider pages -->
+                        <!-- Slider pages -->
+                        @foreach (var slider in sliders)
+                        {
+                            <div class="slider_page d-flex justify-content-between">
+                                <div class="col-lg-6">
+                                    <div class="slider_img">
+                                        <img src="~/assets/image/@slider.SliderImage" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="slider_info">
+                                        <h1>@Html.Raw(slider.Title)</h1>
+                                        <p>@slider.Description</p>
+                                        <a href="@slider.Url">Ətraflı</a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                        <!-- End of the slider pages -->
+                    </div>
+                </div>
+                <div class="carusel_control">
+                    <ul></ul>
+                </div>
+            </div>
+            <!-- End of the slider carusel -->
+            <!-- Information boxes -->
+            <div class="info row g-2 g-lg-4">
+                @foreach (var crossBox in crossBoxes)
+                {
+                    <div class="col-lg-3 col-6">
+                        <div class="box">
+                            <h4>@crossBox.Title</h4>
+                            <h2>@crossBox.MainDigit</h2>
+                            <span>@crossBox.Suffix</span>
+                            <a href="@crossBox.Url">@crossBox.LinkType</a>
+                        </div>
+                    </div>
+                }
+            </div>
+            <!-- End of the information boxes -->
+            <!-- UCard banner -->
+            @foreach (var uCardIndex in uCardIndexs)
+            {
+                <div class="ucard">
+                    <div class="col-lg-6 col-12">
+                        <div class="card_image">
+                            <img src="~/assets/image/@uCardIndex.UCardImage" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="card_info">
+                            <h2>@uCardIndex.Title</h2>
+                            <p>@uCardIndex.Description</p>
+                            <div class="ucard_comp">
+                                @foreach (var uCardTab in uCardTabs.Where(x => x.UCardIndexId == uCardIndex.Id).ToList())
+                                {
+                                    <a href="@uCardTab.TabLink" class="@uCardTab.TabClass">@uCardTab.TabType</a>
+                                }
+                            </div>
+                            <div class="ucard_resp">
+                                <a href="#" class="various">Ətraflı</a>
+                                <div class="ucard_flex">
+                                    <a href="#">Partnyorlar</a>
+                                    <a href="/login/index">Şəxsi kabinet</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+            <!-- End of the UCard banner -->
+            <!-- UBank banner -->
+            @foreach (var uBank in uBanks)
+            {
+                <div class="ubank">
+                    <div class="col-lg-6">
+                        <div class="ubank_info">
+                            <h2>@uBank.Title</h2>
+                            <!-- UBank banner -->
+                            <div class="comp_version">
+                                <p>@uBank.Description</p>
+                                <div class="icons">
+                                    @foreach (var uBankImage in uBankImages.Where(x => x.UBankId == uBank.Id).ToList())
+                                    {
+                                        <img src="~/assets/image/@uBankImage.Image" alt="">
+                                    }
+                                </div>
+                            </div>
+                            <!-- End of the UBank banner -->
+                            <!-- Responsive UBank banner -->
+                            <div class="mobile_version d-none">
+                                <div class="icons">
+                                    @foreach (var uBankImage in uBankImages.Where(x => x.UBankId == uBank.Id).ToList())
+                                    {
+                                        <img src="~/assets/image/@uBankImage.Image" alt="">
+                                    }
+                                </div>
+                                <p>@uBank.Description</p>
+                            </div>
+                            <!-- End of the responsive UBank banner -->
+                            <a href="#">Haqqında</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="app_image">
+                            <img src="~/assets/image/@uBank.Image" alt="">
+                        </div>
+                    </div>
+                </div>
+            }
+            <!-- End of the UBank banner -->
+            <!-- Currency exchanges -->
+            <div class="currency">
+                <h1>Valyuta məzənnələri</h1>
+                <!-- Responsive currency tabmenu -->
+                <div class="currency_tabmenu d-none">
+                    @foreach (var exchange in model.Exchanges)
+                    {
+                        <a href="#" data-id="@exchange.Id">@exchange.Type</a>
+                    }
+                </div>
+                <!-- End of the responsive currency tabmenu -->
+                <!-- Currency table -->
+                <div class="currency_box row">
+                    @foreach (var exchange in model.Exchanges)
+                    {
+                        <div class="col-lg-4">
+                            <div class="box" id="@exchange.Id">
+                                <h4>@exchange.Type</h4>
+                                <p class="update_time"></p>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Valyuta</th>
+                                            <th>Alış</th>
+                                            <th>Satış</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var currency in exchange.ExchangeCurrency.Where(x => x.ExchangeId == exchange.Id).ToList())
+                                        {
+                                            <tr>
+                                                <td>@currency.Currency.CurrencyName</td>
+                                                <td class="@currency.Currency.CurrencyValue"> <i class="fa-solid fa-chevron-down"></i></td>
+                                                <td class="@currency.Currency.CurrencyValue"> <i class="fa-solid fa-chevron-down"></i></td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <!-- End of the currency table -->
+                <!-- Currency calculator -->
+                <div class="currency_calc">
+                    <div class="currency_info">
+                        <h2>Valyuta kalkulyatoru</h2>
+                        <p>Nağd məzənnə əsasında hesablanır</p>
+                    </div>
+                    <!-- First calculator box -->
+                    <div class="calc_operations">
+                        <div class="calc_div row">
+                            <div class="col-lg-8">
+                                <div class="calc_input">
+                                    <input class="first_input" type="text" maxlength="12" placeholder="0">
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="currency_div" id="index">
+                                    <div class="main_box first_box">
+                                        <span class="main_flag" id="first_flag" style="background-image: url(https://unibank.az/assets/images/@firstCurrencyBoxes.First().CurrencyImage);"></span>
+                                        <span class="main_currency first_currency">@firstCurrencyBoxes.First().Currency</span>
+                                        <i class="fa-solid fa-chevron-down first_chevron"></i>
+                                    </div>
+                                    <div class="exchange_div first_exchange d-none">
+                                        @foreach (var firstCurrencyBox in firstCurrencyBoxes)
+                                        {
+                                            <a href="#" class="@firstCurrencyBox.Visibility"><span class="flag @firstCurrencyBox.CurrencyFlag" style="background-image: url(https://unibank.az/assets/images/@firstCurrencyBox.CurrencyImage);"> </span><span class="same">@firstCurrencyBox.Currency</span></a>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of the first calculator box -->
+                    <div class="cross_arrow">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                    <!-- Second calculator box -->
+                    <div class="calc_operations">
+                        <div class="calc_div row">
+                            <div class="col-lg-8">
+                                <div class="calc_input">
+                                    <input class="second_input" type="text" maxlength="12" placeholder="0">
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="currency_div">
+                                    <div class="main_box second_box">
+                                        <span class="main_flag" id="second_flag" style="background-image: url(https://unibank.az/assets/images/@secondCurrencyBoxes.First().CurrencyImage);"></span>
+                                        <span class="main_currency second_currency">@secondCurrencyBoxes.First().Currency</span>
+                                        <i class="fa-solid fa-chevron-down second_chevron"></i>
+                                    </div>
+                                    <div class="exchange_div second_exchange d-none">
+                                        @foreach (var secondCurrencyBox in secondCurrencyBoxes)
+                                        {
+                                            <a href="#" class="@secondCurrencyBox.Visibility"><span class="flag @secondCurrencyBox.CurrencyFlag" style="background-image: url(https://unibank.az/assets/images/@secondCurrencyBox.CurrencyImage);"> </span><span class="same">@secondCurrencyBox.Currency</span></a>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of the second calculator box -->
+                </div>
+                <!-- End of the currency calculator -->
+            </div>
+            <!-- End of the currency -->
+            <!-- News banner -->
+            <div class="news row">
+                @foreach (var info in news)
+                {
+                    <div class="col-lg-4">
+                        <div class="box" data-news="/news/details/@info.Id">
+                            <h4>@info.Title</h4>
+                            <p>@(info.Description.Length > 300 ? info.Description.Substring(0, 300) + "..." : info.Description)</p>
+                            <span>@info.BroadcastDate</span>
+                        </div>
+                    </div>
+                }
+                <a href="/news/index">Bütün xəbərlər</a>
+            </div>
+            <!-- End of the news banner -->
+            <!-- Connection banner -->
+            <div class="connection">
+                @foreach (var connectionBanner in connectionBanners)
+                {
+                    <div class="@connectionBanner.Class">
+                        <h2>@Html.Raw(connectionBanner.Title)</h2>
+                        <p>@connectionBanner.Description</p>
+                        <a href="@connectionBanner.Url">Daha ətraflı</a>
+                        <img src="~/assets/image/@connectionBanner.Image" alt="">
+                    </div>
+                }
+            </div>
+            <!-- End of the connection banner -->
+        </div>
+    </section>
+</main>

@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "Kreditlər / Unibank";
+}
+@{
+    CreditsViewModel model = Model;
+    var credits = model.Credits;
+}
+
+<main>
+    <section>
+        <div class="custom_container">
+            <div class="page_title">
+                <h1>Kreditlər</h1>
+            </div>
+            <div class="credits row g-4">
+                @foreach (var credit in credits)
+                {
+                    <div class="col-lg-6">
+                        <div class="credit_box">
+                            <i class="@credit.Icon"></i>
+                            <h2>@credit.CreditType</h2>
+                            <p>@credit.Description</p>
+                            <div class="directions">
+                                <a href="#">Müraciət et <i class="fa-solid fa-arrow-right-long"></i></a>
+                                <a href="#" class="various">Ətraflı</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+</main>
+
+

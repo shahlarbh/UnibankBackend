@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewData["Title"] = "Əmanətlər / Unibank";
+}
+@{
+    DepositsViewModel model = Model;
+    var deposits = model.Deposits;
+}
+
+<main>
+    <section>
+        <div class="custom_container">
+            <div class="page_title">
+                <h1>Əmanətlər</h1>
+            </div>
+            <div class="deposits row g-4">
+                @foreach (var deposit in deposits)
+                {
+                    <div class="col-lg-6">
+                        <div class="deposit_box">
+                            <i class="@deposit.Icon"></i>
+                            <h2>@deposit.PageTitle</h2>
+                            <p>@deposit.Description</p>
+                            <div class="directions">
+                                <a href="#">Daha ətraflı <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+</main>
+
+

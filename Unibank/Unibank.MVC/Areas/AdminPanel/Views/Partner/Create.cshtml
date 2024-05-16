@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model PartnerCreateViewModel
+
+<div class="col-md-6 grid-margin stretch-card" style="width:80vw">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Create Partner</h4>
+            <form class="forms-sample" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label asp-for="PartnerImage">Partner Image</label>
+                    <input asp-for="PartnerImage" class="form-control" placeholder="Partner Image" accept="image/*">
+                    <span asp-validation-for="PartnerImage"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Name">Name</label>
+                    <input asp-for="Name" class="form-control" placeholder="Name">
+                    <span asp-validation-for="Name"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Percentage">Percentage</label>
+                    <input asp-for="Percentage"%" class="form-control" placeholder="Percentage">
+                    <span asp-validation-for="Percentage"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NFC">NFC</label>
+                    <input asp-for="NFC" class="form-control" placeholder="NFC">
+                    <span asp-validation-for="NFC"></span>
+                </div>
+                <select asp-for="CategoryId" asp-items="Model.Category" placeholder="Category name" class="form-control"></select>
+                <button type="submit" class="btn btn-primary me-2">Submit</button>
+                <button class="btn btn-light" asp-action="index">Cancel</button>
+            </form>
+        </div>
+    </div>
+</div>

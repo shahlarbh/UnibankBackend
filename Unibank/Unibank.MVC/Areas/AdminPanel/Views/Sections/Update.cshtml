@@ -1,0 +1,18 @@
+﻿@model SectionUpdateViewModel
+
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post" style="width:40vw">
+    <input asp-for="Name" placeholder="Section name" class="form-control" />
+    <label asp-for="RemovedBranchIds" style="margin:10px">Remove Branch</label>
+    <select asp-for="RemovedBranchIds" asp-items="Model.RemovedBranchs" placeholder="Branch name" class="form-control"></select>
+    <label asp-for="AddedBranchIds" style="margin:10px">Add Branch</label>
+    <select asp-for="AddedBranchIds" asp-items="Model.AvailableBranchs" placeholder="Branch name" class="form-control"></select>
+    <div style="width:20%; display:flex; justify-content:space-between; margin:10px auto">
+        <button style="margin-right:10px" class="btn btn-success" type="submit">Update</button>
+        <a asp-action="index" class="btn btn-danger">Cancel</a>
+    </div>
+</form>

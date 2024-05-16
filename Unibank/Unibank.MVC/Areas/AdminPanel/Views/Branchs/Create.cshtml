@@ -1,0 +1,22 @@
+﻿@model BranchCreateViewModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post">
+    <input asp-for="Name" placeholder="Name" class="form-control" />
+    <input asp-for="Address" placeholder="Address" class="form-control" />
+    <textarea asp-for="WorkTime" id="description" class="form-control" placeholder="Work time"></textarea>
+    <input asp-for="Description" placeholder="Description" class="form-control" />
+    <select asp-for="SectionIds" asp-items="Model.Sections" placeholder="Section name" class="form-control"></select>
+    <div style="width:20%; display:flex; justify-content:space-between; margin:10px auto">
+        <button style="margin-right:10px" class="btn btn-success" type="submit">Create</button>
+        <a asp-action="index" class="btn btn-danger">Cancel</a>
+    </div>
+</form>
+
+@section Scripts{
+    <partial name="_CkEditorPartial"></partial>
+}

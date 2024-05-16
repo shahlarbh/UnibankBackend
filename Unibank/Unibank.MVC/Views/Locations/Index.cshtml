@@ -1,0 +1,124 @@
+﻿
+@{
+    ViewData["Title"] = "Xidmət şəbəkəsi / Unibank";
+}
+@{
+    LocationsViewModel model = Model;
+    var sections = model.Sections;
+    var terminals = model.Terminals;
+    var utms = model.UTMs;
+    var branchBanners = model.BranchBanners;
+}
+
+<main>
+    <section>
+        <div class="custom_container">
+            <!-- ATM -->
+            <div class="atm">
+                <h1>Xidmət şəbəkəsi</h1>
+                <div class="locations">
+                    @foreach (var sctn in model.Sections)
+                    {
+                        <a href="#" id="@sctn.Id">@sctn.Name</a>
+                    }
+                    <a href="#" id="utm">UTM</a>
+                    <a href="#" id="terminal">Terminallar</a>
+                </div>
+            </div>
+            <!-- End of the ATM -->
+            <!-- Unibank map -->
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.1722630325003!2d49.8398181751072!3d40.38287455770059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307da061c870c5%3A0x161c578e7ccd4c24!2sUnibank%20M%C9%99rk%C9%99zi%20ofis%20(Uniplaza)!5e0!3m2!1saz!2saz!4v1682350685701!5m2!1saz!2saz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- End of the Unibank map -->
+            <!-- All branchs -->
+            <div class="all_branchs">
+                @foreach(var sctn in model.Sections)
+                {
+                    @foreach(var branch in sctn.SectionBranches.Where(x => x.SectionId == sctn.Id).ToList())
+                    {
+                        <div class="branch row" data-id="@branch.SectionId">
+                            <div class="col-lg-4">
+                                <div class="branch_address">
+                                    <h1>@branch.Branch.Name</h1>
+                                    <p>@branch.Branch.Address</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="branch_info row">
+                                    <div class="col-lg-6 col-6">
+                                        <div class="work_time row">
+                                            <div class="time_icon col-lg-2 col-2">
+                                                <i class="fa-regular fa-clock"></i>
+                                            </div>
+                                            <div class="time_info col-lg-10 col-10">
+                                                <p>
+                                                    @Html.Raw(branch.Branch.WorkTime)
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-6">
+                                        <div class="about_branch row">
+                                            <div class="warning_icon col-lg-2 col-2">
+                                                <i class="fa-solid fa-circle-exclamation"></i>
+                                            </div>
+                                            <div class="about col-lg-10 col-10">
+                                                <p>@branch.Branch.Description</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+                <!-- End of the branchs -->
+                <!-- UTM -->
+                @foreach (var utm in utms)
+                {
+                    <div class="branch row d-none" data-id="utm">
+                        <div class="col-lg-8">
+                            <div class="branch_address">
+                                <h1>@utm.Name</h1>
+                                <p>@utm.Address</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="branch_info row">
+                                <div class="icon_branch col-lg-2 col-6 text-end">
+                                    <i class="fa-solid fa-circle-exclamation"></i>
+                                </div>
+                                <div class="info_branch col-lg-10 col-6">
+                                    <p>@utm.Currency</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+                <!-- End of the UTM -->
+                <!-- Terminal -->
+                @foreach (var terminal in terminals)
+                {
+                    <div class="branch row d-none" data-id="terminal">
+                        <div class="col-lg-4">
+                            <div class="branch_address">
+                                <h1>@terminal.Name</h1>
+                                <p>@terminal.Address</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+                <!-- End of the Terminal -->
+            </div>
+            <!-- End of the all branchs -->
+            @foreach (var branchBanner in branchBanners)
+            {
+                <div class="branch_banner">
+                    <i class="@branchBanner.Icon"></i>
+                    <p>@branchBanner.Title</p>
+                </div>
+            }
+        </div>
+    </section>
+</main>

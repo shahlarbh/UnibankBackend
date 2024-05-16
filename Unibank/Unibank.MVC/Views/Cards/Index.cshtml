@@ -1,0 +1,80 @@
+﻿
+@{
+    ViewData["Title"] = "Debet kartlar / Unibank";
+}
+@{
+    CardsViewModel model = Model;
+    var cards = model.Cards;
+    var cardTypes = model.CardTypes;
+    var uCardBanners = model.UCardBanners;
+    var uCardBannerOptions = model.UCardBannerOptions;
+}
+
+<main>
+    <section>
+        <div class="custom_container">
+            <!-- Cards -->
+            <div class="title">
+                <h1>Kartlar</h1>
+            </div>
+            @foreach (var uCardBanner in uCardBanners)
+            {
+                <div class="ucard_panel row">
+                    <div class="col-lg-4 col-12">
+                        <div class="ucard_image">
+                            <img src="~/assets/image/@uCardBanner.Image" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <div class="ucard_header">
+                            <div class="ucard_title">
+                                <h1>@uCardBanner.Title</h1>
+                            </div>
+                            <div class="ucard_link">
+                                <a href="#">Ətraflı <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                        <p>@uCardBanner.Description</p>
+                        <div class="ucard_parametrs">
+                            @foreach (var uCardBannerOption in uCardBannerOptions.Where(x => x.UCardBannerId == uCardBanner.Id).ToList())
+                            {
+                                <div class="box">
+                                    <i class="@uCardBannerOption.Icon"></i>
+                                    <p>@uCardBannerOption.Title</p>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+            <!-- End of the cards -->
+            <!-- Debet cards -->
+            @foreach(var cardType in cardTypes)
+            {
+                <div class="title">
+                    <h1>@cardType.Title</h1>
+                </div>
+                <div class="ubank_cards row">
+                    @foreach(var card in cards.Where(x => x.CardTypeId == cardType.Id).ToList())
+                    {
+                        <div class="col-lg-6">
+                            <div class="box">
+                                <div class="ubank_image">
+                                    <img src="~/assets/image/@card.Image" alt="">
+                                </div>
+                                <div class="ubank_infobox">
+                                    <h2>@card.Name</h2>
+                                    <p>@card.Description</p>
+                                </div>
+                                <a href="#">Ətraflı <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+            <!-- End of the debet cards -->
+        </div>
+    </section>
+</main>
+
+

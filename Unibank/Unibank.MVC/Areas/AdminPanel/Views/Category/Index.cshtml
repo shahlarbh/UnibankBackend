@@ -1,0 +1,45 @@
+﻿@model List<Category>
+@{
+    ViewData["Title"] = "Category";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="w-100">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Category Table</h4>
+            <a class="btn btn-success" style="margin:10px" asp-controller="category" asp-action="create">Create</a>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Category Name</th>
+                            <th>Update</th>
+                            <th>Details</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Name</td>
+                                <td>
+                                    <a class="btn btn-success" style="text-transform:capitalize" asp-action="update" asp-route-id="@item.Id">Update</a>
+                                </td>
+                                <td>
+                                    <a class="btn btn-warning" style="text-transform:capitalize;" asp-action="details" asp-route-id="@item.Id">Details</a>
+                                </td>
+                                <td>
+                                    <form asp-action="delete" method="post">
+                                        <button type="submit" class="btn btn-danger" asp-action="delete" asp-route-id="@item.Id">Delete</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

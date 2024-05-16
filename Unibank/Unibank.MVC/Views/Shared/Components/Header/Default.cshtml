@@ -1,0 +1,124 @@
+﻿@model List<Header>
+
+@foreach(var header in Model){
+    <!-- Responsive header -->
+    <div class="custom_container">
+        <div class="mobile_header d-none">
+            <div class="hamburger_menu">
+                <i class="fa-solid fa-bars hamburger_icon"></i>
+            </div>
+            <div class="logo">
+                <a href="@header.LogoUrl"><img src="~/assets/image/@header.Logo" alt=""></a>
+            </div>
+            <div class="phone">
+                <a href="tel:@header.Connection">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>@header.Connection</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End of the responsive header -->
+    <!-- Hamburger menu -->
+    <div class="hamburger_panel">
+        <div class="menu_hamburger">
+            @foreach (var item in header.Menus.Where(x => x.HeaderId == header.Id))
+            {
+                <a href="#" class="@item.Visibility">@item.Title</a>
+
+            }
+        </div>
+        <div class="navigation_menu">
+            @foreach (var item in header.HeaderNavigations.Where(x => x.HeaderId == header.Id).Take(6))
+            {
+                <a href="@item.TitleUrl">@item.Title</a>
+            }
+        </div>
+        <div class="navbar_menu">
+            @foreach (var item in header.HeaderNavigations.Where(x => x.HeaderId == header.Id).Skip(6).Take(6))
+            {
+                <a href="@item.TitleUrl">@item.Title</a>
+            }
+        </div>
+        <div class="option_menu">
+            <div class="theme_hamburger">
+                @foreach (var item in header.Darkmodes.Where(x => x.HeaderId == header.Id))
+                {
+                    <i class="@item.ModeIcon @item.Visibility"></i>
+                }
+            </div>
+            <div class="responsive_search">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            </div>
+            <div class="responsive_language">
+                @foreach(var item in header.Languages.Where(x => x.HeaderId == header.Id))
+                {
+                    <a href="#" class="@item.Visibility">@item.Name</a>
+                }
+            </div>
+        </div>
+    </div>
+    <!-- End of the hamburger menu -->
+    <!-- Header first line -->
+    <div class="first_header">
+        <div class="custom_container">
+            <div class="first_line d-flex justify-content-between align-items-center">
+                <div class="left_side d-flex justify-content-between align-items-center">
+                    <div class="logo">
+                        <a href="@header.LogoUrl"><img src="~/assets/image/@header.Logo" alt=""></a>
+                    </div>
+                    <nav>
+                        @foreach (var item in header.HeaderNavigations.Where(x => x.HeaderId == header.Id).Skip(6).Take(6))
+                        {
+                            <a href="@item.TitleUrl">@item.Title</a>
+                        }
+                    </nav>
+                </div>
+                <div class="right_side d-flex justify-content-between align-items-center">
+                    <div class="menu">
+                        @foreach (var item in header.Menus.Where(x => x.HeaderId == header.Id))
+                        {
+                            <a href="#" class="@item.Visibility">@item.Title</a>
+                        }
+                    </div>
+                    <div class="theme">
+                        @foreach (var item in header.Darkmodes.Where(x => x.HeaderId == header.Id))
+                        {
+                            <i class="@item.ModeIcon @item.Visibility"></i>
+                        }
+                    </div>
+                    <div class="lang">
+                        @foreach (var item in header.Languages.Where(x => x.HeaderId == header.Id))
+                        {
+                            <a href="#" class="@item.Visibility">@item.Name</a>
+                        }
+                    </div>
+                    <div class="search">
+                        <span><i class="fa-solid fa-magnifying-glass search_loop"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of the first line header -->
+    <!-- Second line header -->
+    <div class="second_header">
+        <div class="custom_container">
+            <div class="second_line d-flex justify-content-between align-items-center">
+                <nav>
+                    @foreach (var item in header.HeaderNavigations.Where(x => x.HeaderId == header.Id).Take(6))
+                    {
+                        <a href="@item.TitleUrl">@item.Title</a>
+                    }
+                </nav>
+                <div class="phone">
+                    <a href="tel:@header.Connection">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>@header.Connection</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of the second line header -->
+}

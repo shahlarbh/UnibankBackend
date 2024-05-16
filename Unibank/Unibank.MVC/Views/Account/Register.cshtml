@@ -1,0 +1,71 @@
+﻿@model RegisterViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qeydiyyat / Unibank</title>
+    <link rel="icon" href="~/assets/image/apple-touch-icon.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="~/assets/css/style.css">
+</head>
+<body class="registration">
+    <div class="nonresponsive_container">
+        <div class="registration_container">
+            <!-- Header -->
+            <header class="registration_header">
+                <div class="registration_logo">
+                    <a href="/home/index"><img src="~/assets/image/logo_unibank.png" alt=""></a>
+                </div>
+                <div class="registration_lang">
+                    <a href="#" class="selected_lang">AZE</a>
+                    <a href="#">ENG</a>
+                    <a href="#">RUS</a>
+                </div>
+            </header>
+            <!-- End of the header -->
+            <main>
+                <section>
+                    <div class="registration_content">
+                        <p>Qeydiyyat</p>
+                        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+                        <form action="" method="post">
+                            <div class="registration_input">
+                                <i class="fa-solid fa-user form-icon"></i>
+                                <input asp-for="Username" type="text" required placeholder="İstifadəçi adı">
+                            </div>
+                            <div class="registration_input">
+                                <i class="fa-solid fa-address-card form-icon"></i>
+                                <input asp-for="Fullname" type="text" required placeholder="Ad / soyad">
+                            </div>
+                            <div class="registration_input">
+                                <i class="fa-solid fa-envelope-circle-check form-icon"></i>
+                                <input asp-for="Email" type="email" required placeholder="Elektron-poçt hesabı">
+                            </div>
+                            <div class="registration_input">
+                                <i class="fa-solid fa-lock form-icon"></i>
+                                <input asp-for="Password" type="password" id="1" required placeholder="Şifrə">
+                                <i class="fa-solid fa-eye show_password" data-id="1"></i>
+                            </div>
+                            <div class="registration_input">
+                                <i class="fa-solid fa-lock form-icon"></i>
+                                <input asp-for="ConfirmPassword" type="password" id="2" required placeholder="Şifrəni yenidən daxil edin">
+                                <i class="fa-solid fa-eye show_password" data-id="2"></i>
+                            </div>
+                            <button asp-action="register" type="submit">Qeydiyyat</button>
+                        </form>
+                        <p id="login">Hesabınız var? <a asp-action="login">Daxil olun</a></p>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+    <script src="~/assets/js/login.js"></script>
+</body>
+</html>

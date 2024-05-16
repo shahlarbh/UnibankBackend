@@ -1,0 +1,51 @@
+﻿@model List<Footer>
+
+<footer>
+    <div class="custom_container">
+        @foreach(var footer in Model)
+        {
+            <!-- All footer -->
+            <div class="all_footer">
+                @foreach (var item in footer.FooterNavigations.Where(x => x.FooterId == footer.Id))
+                {
+                    <div class="footer_navigation">
+                        <a href="@item.Url" class="footer_title">@item.Title</a>
+                        @foreach (var element in item.FooterNavigationExtentions.Where(x => x.FooterNavigationId == item.Id))
+                        {
+                            <div class="box">
+                                <a href="@element.PageUrl">@element.PageTitle</a>
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+            <!-- End of the all footer -->
+            <!-- Footer icons -->
+            <div class="footer_icons">
+                @foreach (var item in footer.FooterIcons.Where(x => x.FooterId == footer.Id))
+                {
+                    <a href="@item.IconUrl"><i class="@item.Icon"></i></a>
+                }
+            </div>
+            <!-- End of the footer icons -->
+            <hr>
+            <!-- Footer end -->
+            <div class="footer_end row">
+                <div class="left_end col-lg-8 col-12 col-sm-12 col-md-12">
+                    @foreach (var item in footer.FooterLeftEnds.Where(x => x.FooterId == footer.Id))
+                    {
+                        <h4>@item.Title</h4>
+                        <p>@item.Description</p>
+                    }
+                </div>
+                <div class="right_end col-lg-4 col-12 col-sm-12 col-md-12">
+                    @foreach (var item in footer.FooterRightEnds.Where(x => x.FooterId == footer.Id))
+                    {
+                        <a href="@item.LogoUrl" target="_blank"><img src="~/assets/image/@item.Logo" alt=""></a>
+                    }
+                </div>
+            </div>
+            <!-- End of the footer -->
+        }
+    </div>
+</footer>

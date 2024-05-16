@@ -1,0 +1,51 @@
+﻿
+@{
+    CashbackViewModel model = Model;
+    var partner = model.Partners.FirstOrDefault();
+}
+
+@{
+    ViewData["Title"] = $"{partner.Name}";
+}
+
+<main>
+    <section>
+        <div class="custom_container">
+            <div class="page_title">
+                <h1>Keşbek və Miles</h1>
+            </div>
+            <div class="cashback_box row">
+                <div class="col-lg-3">
+                    <div class="cashback_image">
+                        <img src="~/assets/image/@partner.Image" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="cashback_info">
+                        <h1>@partner.Name</h1>
+                        <span>@partner.Category.Name</span>
+                        <p>@partner.Name</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="cashback_discount">
+                        <h1>@partner.Percentage%</h1>
+                        <p>@partner.NFC</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile_cashback d-none">
+                <h1>@partner.Name</h1>
+                <span>@partner.Category.Name</span>
+                <div class="mobile_image">
+                    <img src="~/assets/image/@partner.Image" alt="">
+                </div>
+                <p>@partner.Name</p>
+                <div class="mobile_discount">
+                    <h1>@partner.Percentage%</h1>
+                    <p>@partner.NFC</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewData["Title"] = "Ölkədaxili / Unibank";
+}
+@{
+    TransfersViewModel model = Model;
+    var transferBanners = model.TransferBanners;
+    var methods = model.Methods;
+}
+
+<main>
+    <section>
+        <div class="custom_container">
+            <div class="transfer_title">
+                <h1>Pul köçürmələri</h1>
+                @foreach(var transferBanner in transferBanners)
+                {
+                    <p>@transferBanner.Description</p>
+                }
+            </div>
+            <div class="transfer_link">
+                @foreach(var method in methods)
+                {
+                    <a href="/transfers/@method.Action">@method.Name</a>
+                }
+            </div>
+            @foreach(var method in methods)
+            {
+                @foreach(var transfer in method.TransferMethods.Where(x => x.MethodId == 2))
+                {
+                    <div class="transfers row" id="@transfer.Transfer.VariousBox">
+                        <div class="transfer_img col-lg-4 col-4">
+                            <img src="~/assets/image/@transfer.Transfer.Image" alt="">
+                        </div>
+                        <div class="transfer_info col-lg-8 col-8">
+                            <h1>@transfer.Transfer.Name</h1>
+                            <p><strong>Komissiya haqqı</strong> –  @transfer.Transfer.Commission</p>
+                            <p><strong>Valyuta</strong> – @transfer.Transfer.Currency</p>
+                            <p><strong>Əhatə dairəsi</strong> – @transfer.Transfer.Location</p>
+                            <p class="description">@Html.Raw(transfer.Transfer.Description)</p>
+                            <div class="direction">
+                                <a href="~/assets/pdf/@transfer.Transfer.Pdf" target="_blank">Tariflər <i class="fa-solid fa-down-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </section>
+</main>
+

@@ -1,0 +1,193 @@
+﻿
+@{
+    ViewData["Title"] = "Keşbek və Miles / Unibank";
+}
+@{
+    CashbackViewModel model = Model;
+    var cashbackPreviews = model.CashbackPreviews;
+    var categories = model.Categories;
+    var partners = model.Partners;
+    var cashbackInfoBoxes = model.CashbackInfoBoxes;
+    var filters = model.Filters;
+}
+
+<main>
+    <section>
+        <div class="custom_container">
+            <div class="title">
+                <h1>Keşbek və Miles</h1>
+            </div>
+            <!-- Cashback info -->
+            <div class="cashback_info">
+                @foreach (var cashbackPreview in cashbackPreviews)
+                {
+                    <p>@Html.Raw(cashbackPreview.Information)</p>
+                }
+            </div>
+            <!-- End of the cashback info -->
+            <p class="responsive_tabmenu d-none"><span>Tərəfdaşlar</span><i class="fa-solid fa-circle-chevron-down" id="responsive_tabmenu"></i></p>
+            <!-- Select options -->
+            <div class="cashback_header steels row">
+                <div class="select_options col-lg-3">
+                    <p>Kateqoriyanı seç</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <select name="" id="select_category">
+                        <option value="">- Bütün -</option>
+                        @foreach (var category in categories)
+                        {
+                            <option value="@category.Id">@category.Name</option>
+                        }
+                    </select>
+                </div>
+                <div class="select_options col-lg-3">
+                    <p>Partnyoru seç</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <select name="" id="select_partner">
+                        <option value="">- Bütün -</option>
+                        @foreach(var category in categories)
+                        {
+                            @foreach (var partner in partners.Where(x => x.CategoryId == category.Id).ToList())
+                            {
+                                <option value="@partner.Id">@partner.Name</option>
+                            }
+                        }
+                    </select>
+                </div>
+                <div class="select_options col-lg-3">
+                    <p>Axtarış</p>
+                    <input type="text" placeholder="Daxil et" id="searchInput">
+                </div>
+                <div class="select_options col-lg-3">
+                    <p>Sıralama</p>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <select name="sortFilter" id="sortFilter">
+                        @foreach(var filter in filters)
+                        {
+                            <option value="@filter.Id">@filter.FilterType</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <!-- End of the select options -->
+            <!-- Cashback partners -->
+            <div class="cashback_partners row" id="partnerContainer">
+                @foreach(var category in categories)
+                {
+                    @foreach (var partner in partners.Where(x => x.CategoryId == category.Id).ToList())
+                    {
+                        <div class="partner_box" data-category="@category.Id" data-partner="@partner.Id" data-cashback="/cashback/details/@partner.Id">
+                            <div class="partner_image">
+                                <img src="~/assets/image/@partner.Image" alt="">
+                            </div>
+                            <div class="partner_info">
+                                <h2>@partner.Percentage%</h2>
+                                <h4>@partner.Name</h4>
+                                <h6>@partner.Category.Name</h6>
+                                <p>@partner.NFC</p>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+            <!-- End of the cashback partners -->
+            <a href="" id="loadMore">Tam siyahı</a>
+            <!-- Cashback information -->
+            <div class="cashback_information">
+                <div class="title">
+                    <h1>Əlavə məlumat</h1>
+                </div>
+                <div class="cashback_tabs">
+                    @foreach (var cashbackInfoBox in cashbackInfoBoxes)
+                    {
+                        <a href="#" data-id="@cashbackInfoBox.Id">@cashbackInfoBox.TabTitle</a>
+                    }
+                </div>
+                @foreach (var cashbackInfoBox in cashbackInfoBoxes)
+                {
+                    <div class="cashback_context" id="@cashbackInfoBox.Id">
+                        <h6>@cashbackInfoBox.FirstTitle</h6>
+                        <p>
+                            @Html.Raw(cashbackInfoBox.FirstContext)
+                        </p>
+                        <h6>@cashbackInfoBox.LastTitle</h6>
+                        <p>
+                            @Html.Raw(cashbackInfoBox.LastContext)
+                        </p>
+                    </div>
+                }
+            </div>
+            <!-- End of the cashback information -->
+            <!-- Responsive cashback information -->
+            <div class="responsive_cashback">
+                <div class="title">
+                    <h1>Əlavə məlumat</h1>
+                </div>
+                @foreach (var cashbackInfoBox in cashbackInfoBoxes)
+                {
+                    <div class="responsive_cashback_tabs">
+                        <a href="#" data-id="@cashbackInfoBox.Id">@cashbackInfoBox.TabTitle <i class="fa-solid fa-arrow-up"></i></a>
+                    </div>
+                    <div class="cashback_context" id="@cashbackInfoBox.Id">
+                        <h6>@cashbackInfoBox.FirstTitle</h6>
+                        <p>
+                            @Html.Raw(cashbackInfoBox.FirstContext)
+                        </p>
+                        <h6>@cashbackInfoBox.LastTitle</h6>
+                        <p>
+                            @Html.Raw(cashbackInfoBox.LastContext)
+                        </p>
+                    </div>
+                }
+            </div>
+            <!-- End of the responsive cashback information -->
+            <!-- Cashback calculator -->
+            <div class="cashback_calculator">
+                <div class="title">
+                    <h1>Kalkulyator</h1>
+                </div>
+                <div class="cashback_calc row">
+                    <div class="select_options col-lg-4">
+                        <p>Kateqoriyanı seç</p>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <select name="" id="category">
+                            <option value="">- Bütün -</option>
+                            @foreach (var category in categories)
+                            {
+                                <option value="@category.Id">@category.Name</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="select_options col-lg-4">
+                        <p>Partnyoru seç</p>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <select name="" id="partner">
+                            <option value="">- Bütün -</option>
+                            @foreach(var category in categories)
+                            {
+                                @foreach (var partner in partners.Where(x => x.CategoryId == category.Id).ToList())
+                                {
+                                    <option value="@partner.Id" data-value="@category.Id">@partner.Name</option>
+                                }
+                            }
+                        </select>
+                    </div>
+                    <div class="select_options col-lg-4">
+                        <p>Məbləği daxil edin</p>
+                        <input type="text" placeholder="0" maxlength="12" id="calculate_cashback">
+                        <span>AZN</span>
+                    </div>
+                    <p class="d-none" id="hideCashback"></p>
+                    <div class="cashback_result">
+                        <h1>Hesablanmış keşbek</h1>
+                        <p id="cashback">0</p>
+                        <span>AZN</span>
+                    </div>
+                </div>
+                <img src="assets/image/calculator1.webp" alt="">
+            </div>
+            <!-- End of the cashback calculator -->
+        </div>
+    </section>
+</main>
+
+

@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "UTM";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model List<UTM>
+
+<div class="w-100">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">UTM Table</h4>
+            <a class="btn btn-success" asp-controller="utm" asp-action="create">Create</a>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Address</th>
+                            <th>Currency</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Name</td>
+                                <td>@item.Address</td>
+                                <td>@item.Currency</td>
+                                <td>
+                                    <a class="btn btn-success" asp-action="update" asp-route-id="@item.Id">Update</a>
+                                    <a class="btn btn-warning" asp-action="details" asp-route-id="@item.Id">Details</a>
+                                    <form asp-action="delete" method="post">
+                                        <button type="submit" class="btn btn-danger" asp-action="delete" asp-route-id="@item.Id">Delete</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

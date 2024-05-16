@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "Əlavə xidmətlər / Unibank";
+}
+@{
+    ServicesViewModel model = Model;
+    var services = model.Services;
+}
+
+<main>
+    <section>
+        <div class="custom_container">
+            <div class="title">
+                <h1>Əlavə xidmətlər</h1>
+            </div>
+            <!-- Services -->
+            <div class="services row">
+                @foreach (var service in services)
+                {
+                    <div class="col-lg-4">
+                        <div class="service_box">
+                            <div class="service_icon">
+                                <i class="@service.Icon"></i>
+                            </div>
+                            <div class="service_info">
+                                <h1>@service.PageTitle</h1>
+                                <p>@service.Description</p>
+                            </div>
+                            <i class="fa-solid fa-chevron-right right_arrow d-none"></i>
+                        </div>
+                    </div>
+                }
+            </div>
+            <!-- End of the services -->
+        </div>
+    </section>
+</main>
+
+

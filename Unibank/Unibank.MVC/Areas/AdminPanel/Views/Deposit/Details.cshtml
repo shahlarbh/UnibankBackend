@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = $"{Model.PageTitle}";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model Deposit
+
+<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Deposit</h4>
+            <p class="card-description">
+                @Model.PageTitle
+            </p>
+            <p>
+                @Model.Description
+            </p>
+            <p><i class="@Model.Icon" style="font-size:30px"></i></p>
+        </div>
+    </div>
+</div>

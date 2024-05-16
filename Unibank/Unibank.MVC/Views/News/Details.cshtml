@@ -1,0 +1,33 @@
+﻿
+@{
+    NewsViewModel model = Model;
+    var news = model.NewsList;
+}
+@{
+    @foreach (var info in news)
+    {
+        ViewData["Title"] = $"{info.Title}";
+    }
+}
+
+<main>
+    <section>
+        <div class="custom_container">
+            <div class="page_title">
+                <h1>Xəbərlər və aksiyalar</h1>
+            </div>
+            <div class="news_page">
+                @foreach (var info in news)
+                {
+                    <div class="news_box">
+                        <h1>@info.Title</h1>
+                        <p>@Html.Raw(info.Description)</p>
+                        <span>@info.BroadcastDate</span>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+</main>
+
+

@@ -1,0 +1,10 @@
+﻿@model List<HeaderNavigation>
+
+@foreach(var item in Model){
+    <li style="list-style-type:none;margin-left:10px">
+        <i class="fa-solid fa-arrow-right-long" style="color:#FF6400;margin-right:10px"></i>
+        <a href="@item.TitleUrl" style="text-decoration:none;color:#000000;font-weight:400;font-family:montserrat">
+            @item.Title
+        </a>
+    </li>
+}

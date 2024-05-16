@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewData["Title"] = "Bankla əlaqə və təkliflər";
+}
+@{
+    ContactsViewModel model = Model;
+    var contacts = model.Contacts;
+}
+
+<main>
+    <section>
+        <div class="custom_container">
+            <div class="contacts_title">
+                <h1>Bankla əlaqə və təkliflər</h1>
+                <p>Onlayn-məsləhətçi, 117 Çağrı mərkəzi və ya bank filiallarına müraciət et və suallarına cavab al. Rahat və asan!</p>
+            </div>
+            <!-- Contacts -->
+            <div class="contacts row">
+                @foreach (var contact in contacts)
+                {
+                    <div class="col-lg-4">
+                        <div class="contact_box" data-location="@contact.PageUrl">
+                            <div class="contact_icon">
+                                <i class="@contact.Icon"></i>
+                            </div>
+                            <div class="contact_info">
+                                <h1>@contact.PageTitle</h1>
+                                <p>@contact.Description</p>
+                            </div>
+                            <i class="fa-solid fa-chevron-right right_arrow d-none"></i>
+                        </div>
+                    </div>
+                }
+            </div>
+            <!-- End of the contacts -->
+        </div>
+    </section>
+</main>
+
+

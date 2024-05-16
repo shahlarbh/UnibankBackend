@@ -1,0 +1,1557 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_about.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_about.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_account.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_account.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_cards.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_cashback.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_cashback.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_cashbackdetails.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_cashbackdetails.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_contacts.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_contacts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_credits.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_credits.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_darkmode.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_darkmode.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_deposits.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_deposits.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_digitalbanking.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_digitalbanking.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_fonts.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_hr.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_hr.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_index.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_index.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_locations.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_locations.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_login.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_login.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_news.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_news.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_registration.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_registration.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_resetpassword.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_resetpassword.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_responsive.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_services.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_services.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_tarifs.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_tarifs.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_transfers.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_transfers.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\_vacancies.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\_vacancies.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\css\\style.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\fonts\\Coco-Sharp-Bold-trial.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Coco-Sharp-Bold-trial.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\fonts\\Coco-Sharp-Extralight-trial.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Coco-Sharp-Extralight-trial.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\fonts\\Coco-Sharp-Light-trial.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Coco-Sharp-Light-trial.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\fonts\\Coco-Sharp-Regular-trial.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Coco-Sharp-Regular-trial.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\fonts\\Montserrat-Regular.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Montserrat-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\fonts\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\fonts\\SourceSansPro-Bold.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\SourceSansPro-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\fonts\\SourceSansPro-Regular.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\SourceSansPro-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\fonts\\SourceSansPro-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\SourceSansPro-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\0119ee4e-3e9d-4e89-92ac-6d5cfb1b1129-1685713061trendyol.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\0119ee4e-3e9d-4e89-92ac-6d5cfb1b1129-1685713061trendyol.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\0345ce6e-850e-429e-a75f-91eb035fcbdc-1682404726kredit-xetti-ac1 (1).webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\0345ce6e-850e-429e-a75f-91eb035fcbdc-1682404726kredit-xetti-ac1 (1).webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\1albali_new.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\1albali_new.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\284c1d03-3412-420b-887a-477ab4f5f2af-1688967303marketde-10-azn-banner (1).webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\284c1d03-3412-420b-887a-477ab4f5f2af-1688967303marketde-10-azn-banner (1).webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\3ab12a08-51a1-433a-9126-3bb42da6b238-16703977791661845566digerbank.gif",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\3ab12a08-51a1-433a-9126-3bb42da6b238-16703977791661845566digerbank.gif"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\3albali_new.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\3albali_new.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\ad40d36c-f26c-4814-b253-3dd4903939b4-banner-topla.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\ad40d36c-f26c-4814-b253-3dd4903939b4-banner-topla.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\adif.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\adif.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\adore.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\adore.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\albali debet.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\albali debet.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\albali.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\albali.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\albali_new_debit.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\albali_new_debit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\app-gallery.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\app-gallery.svg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\appbar2.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\appbar2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\apple-touch-icon.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\apple-touch-icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\appstore.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\appstore.svg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\asus.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\asus.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\baku karting.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\baku karting.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\banker.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\banker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\beatrice.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\beatrice.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\bg.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\calculator1.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\calculator1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\callcenter.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\callcenter.svg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\chelebi.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\chelebi.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\coincasa.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\coincasa.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\contact.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\contact.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\coverphoto.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\coverphoto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\digital.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\digital.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\eldar.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\eldar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\euromoney.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\euromoney.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\europan.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\europan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\faiq.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\faiq.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\goldenrose.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\goldenrose.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\infinite.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\infinite.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\info.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\info.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\infobank.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\infobank.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\irsad.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\irsad.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\kfc.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\kfc.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\laparfumerie.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\laparfumerie.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\location.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\location.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\logo.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\logo_unibank.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\logo_unibank.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\logonew-orange1.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\logonew-orange1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\maxi.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\maxi.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\mbe.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\mbe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\msp.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\msp.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\mwe.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\mwe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\note.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\note.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\o_1g04kl6mn107c1a6lc6btp4pfda.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\o_1g04kl6mn107c1a6lc6btp4pfda.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\optimal.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\optimal.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\paese.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\paese.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\pizzahut.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\pizzahut.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\platinium.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\platinium.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\playstore.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\playstore.svg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\sabina.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\sabina.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\simitsarayi.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\simitsarayi.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\skandinaviya.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\skandinaviya.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\smile.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\smile.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\swarovski.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\swarovski.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\tfr.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\tfr.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\twinset.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\twinset.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\ucard gift.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\ucard gift.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\ucard.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\ucard.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\ucardjpg.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\ucardjpg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\unibankpng.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\unibankpng.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\unimiles.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\unimiles.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\unitransfer.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\unitransfer.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\villapizza.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\villapizza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\villeroy.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\villeroy.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\western.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\western.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\yvesdelorme.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\yvesdelorme.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\zkorona.webp",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\zkorona.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\image\\şassi.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\image\\şassi.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\js\\account.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\account.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\js\\cashback.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\cashback.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\js\\chat.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\chat.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\js\\currency.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\currency.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\js\\locations.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\locations.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\js\\login.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\js\\news.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\news.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\js\\registration.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\registration.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\js\\resetpassword.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\resetpassword.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\pdf\\contact.pdf",
+      "PackagePath": "staticwebassets\\admin\\assets\\pdf\\contact.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\pdf\\fiziki.pdf",
+      "PackagePath": "staticwebassets\\admin\\assets\\pdf\\fiziki.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\pdf\\huquqi.pdf",
+      "PackagePath": "staticwebassets\\admin\\assets\\pdf\\huquqi.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\pdf\\plastik.pdf",
+      "PackagePath": "staticwebassets\\admin\\assets\\pdf\\plastik.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\pdf\\reqemsal.pdf",
+      "PackagePath": "staticwebassets\\admin\\assets\\pdf\\reqemsal.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\pdf\\unitransfer.pdf",
+      "PackagePath": "staticwebassets\\admin\\assets\\pdf\\unitransfer.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\pdf\\western.pdf",
+      "PackagePath": "staticwebassets\\admin\\assets\\pdf\\western.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\assets\\pdf\\zkorona.pdf",
+      "PackagePath": "staticwebassets\\admin\\assets\\pdf\\zkorona.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\css\\maps\\style.css.map",
+      "PackagePath": "staticwebassets\\admin\\css\\maps\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\admin\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.eot"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.woff"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.eot"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\images\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\auth\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\auth\\lockscreen-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\lockscreen-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\auth\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\login-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\auth\\register-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\register-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face10.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face11.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face12.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face13.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face14.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face15.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face16.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face17.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face18.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face19.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face20.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face21.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face22.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face23.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face24.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face25.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face26.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face27.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\admin\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\admin\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\js\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\js\\chart.js",
+      "PackagePath": "staticwebassets\\admin\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\js\\data-table.js",
+      "PackagePath": "staticwebassets\\admin\\js\\data-table.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\js\\documentation.js",
+      "PackagePath": "staticwebassets\\admin\\js\\documentation.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\admin\\js\\file-upload.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\admin\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\js\\jquery.cookie.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.cookie.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\admin\\js\\off-canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\admin\\js\\tabs.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\js\\template.js",
+      "PackagePath": "staticwebassets\\admin\\js\\template.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\scss\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\_background.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\_demo.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_demo.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\_fonts.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\_layouts.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_layouts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\_misc.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\_reset.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_reset.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\_typography.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\_vertical-wrapper.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_vertical-wrapper.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\components\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\components\\_badges.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\components\\_bootstrap-progress.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_bootstrap-progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\components\\_cards.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\components\\_checkbox-radio.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_checkbox-radio.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\components\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\components\\_icons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\components\\_lists.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\components\\_tables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\components\\plugin-overrides\\_data-tables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\plugin-overrides\\_data-tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\landing-screens\\_auth.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\landing-screens\\_auth.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\mixins\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\mixins\\_animation.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_animation.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\mixins\\_badges.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\mixins\\_blockqoute.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_blockqoute.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\mixins\\_cards.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\vendors\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\vendors\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\vendors\\base\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\admin\\vendors\\base\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\vendors\\base\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\base\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\vendors\\base\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\base\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\vendors\\datatables.net\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_about.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_about.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_account.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_account.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_cards.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_cashback.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_cashback.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_cashbackdetails.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_cashbackdetails.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_contacts.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_contacts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_credits.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_credits.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_darkmode.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_darkmode.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_deposits.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_deposits.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_digitalbanking.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_digitalbanking.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_fonts.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_hr.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_hr.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_index.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_index.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_locations.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_locations.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_login.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_login.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_news.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_news.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_registration.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_registration.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_resetpassword.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_resetpassword.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_responsive.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_services.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_services.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_tarifs.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_tarifs.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_transfers.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_transfers.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\_vacancies.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\_vacancies.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\css\\style.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\fonts\\Coco-Sharp-Bold-trial.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Coco-Sharp-Bold-trial.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\fonts\\Coco-Sharp-Extralight-trial.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Coco-Sharp-Extralight-trial.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\fonts\\Coco-Sharp-Light-trial.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Coco-Sharp-Light-trial.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\fonts\\Coco-Sharp-Regular-trial.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Coco-Sharp-Regular-trial.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\fonts\\Montserrat-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Montserrat-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\fonts\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\fonts\\SourceSansPro-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\SourceSansPro-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\fonts\\SourceSansPro-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\SourceSansPro-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\fonts\\SourceSansPro-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\SourceSansPro-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\02413828-c45a-43c0-9bbc-0cf920b45bf6-1685713061trendyol.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\02413828-c45a-43c0-9bbc-0cf920b45bf6-1685713061trendyol.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\05234efc-66f2-4782-9050-f5dbc26812bf-skandinaviya.png",
+      "PackagePath": "staticwebassets\\assets\\image\\05234efc-66f2-4782-9050-f5dbc26812bf-skandinaviya.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\07aecfc2-68b8-4f24-956c-a3810363cfe1-villeroy.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\07aecfc2-68b8-4f24-956c-a3810363cfe1-villeroy.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\0b1856db-5d46-48f4-bd5e-51a78d91f967-coincasa.png",
+      "PackagePath": "staticwebassets\\assets\\image\\0b1856db-5d46-48f4-bd5e-51a78d91f967-coincasa.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\136a6c87-1dea-4677-a341-dc64b8d62ae9-şassi.png",
+      "PackagePath": "staticwebassets\\assets\\image\\136a6c87-1dea-4677-a341-dc64b8d62ae9-şassi.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\15d994fb-4a34-48a2-8575-29f156c01ea4-unibankpng.png",
+      "PackagePath": "staticwebassets\\assets\\image\\15d994fb-4a34-48a2-8575-29f156c01ea4-unibankpng.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\1albali_new.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\1albali_new.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\1ebbdd27-c0a0-43d9-9673-4e780b128fbf-irsad.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\1ebbdd27-c0a0-43d9-9673-4e780b128fbf-irsad.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\39703c10-6b25-4a3a-a0ec-14016117541a-unibankpng.png",
+      "PackagePath": "staticwebassets\\assets\\image\\39703c10-6b25-4a3a-a0ec-14016117541a-unibankpng.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\39ad066d-241a-431b-8a0b-91ad3cd1a8b4-1682404726kredit-xetti-ac1 (1).webp",
+      "PackagePath": "staticwebassets\\assets\\image\\39ad066d-241a-431b-8a0b-91ad3cd1a8b4-1682404726kredit-xetti-ac1 (1).webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\3albali_new.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\3albali_new.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\48959d6d-e119-449a-bc60-fc8216b96294-banner-topla.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\48959d6d-e119-449a-bc60-fc8216b96294-banner-topla.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\48e54dee-01e2-4076-b6ea-9d07c6b68ef7-villapizza.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\48e54dee-01e2-4076-b6ea-9d07c6b68ef7-villapizza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\4ebc3372-621e-4686-8184-f910855f9e1b-twinset.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\4ebc3372-621e-4686-8184-f910855f9e1b-twinset.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\60f35490-aa99-4e2e-a1ce-012f004d92fe-16703977791661845566digerbank.gif",
+      "PackagePath": "staticwebassets\\assets\\image\\60f35490-aa99-4e2e-a1ce-012f004d92fe-16703977791661845566digerbank.gif"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\6d90e20e-05be-4a54-aaf4-4151b6dccc0c-simitsarayi.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\6d90e20e-05be-4a54-aaf4-4151b6dccc0c-simitsarayi.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\6ddc6281-7109-4ce9-a8cf-6ba237767fe6-note.png",
+      "PackagePath": "staticwebassets\\assets\\image\\6ddc6281-7109-4ce9-a8cf-6ba237767fe6-note.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\6fa4769b-fa24-4db3-bdf7-e263bd588f96-sabina.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\6fa4769b-fa24-4db3-bdf7-e263bd588f96-sabina.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\87c480a7-d09a-439e-ba23-fdfa259ce71c-unibankpng.png",
+      "PackagePath": "staticwebassets\\assets\\image\\87c480a7-d09a-439e-ba23-fdfa259ce71c-unibankpng.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\9088b44e-679d-4392-9199-f32e3ae14022-1688967303marketde-10-azn-banner (1).webp",
+      "PackagePath": "staticwebassets\\assets\\image\\9088b44e-679d-4392-9199-f32e3ae14022-1688967303marketde-10-azn-banner (1).webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\9219082b-77a5-44d6-bee3-eba9b49c554c-swarovski.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\9219082b-77a5-44d6-bee3-eba9b49c554c-swarovski.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\957aa098-e6fd-41a4-9f96-b636e7a896ea-asus.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\957aa098-e6fd-41a4-9f96-b636e7a896ea-asus.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\96883f6d-f0ab-43f0-b006-213114172986-unibankpng.png",
+      "PackagePath": "staticwebassets\\assets\\image\\96883f6d-f0ab-43f0-b006-213114172986-unibankpng.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\992a4795-08b9-4d2b-9b0b-5d63569de4ed-laparfumerie.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\992a4795-08b9-4d2b-9b0b-5d63569de4ed-laparfumerie.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\9b3db93e-a9e5-4ccc-9f25-33c74fad572b-paese.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\9b3db93e-a9e5-4ccc-9f25-33c74fad572b-paese.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\9ff123cc-8cf9-40a2-8a81-01b143554949-unibankpng.png",
+      "PackagePath": "staticwebassets\\assets\\image\\9ff123cc-8cf9-40a2-8a81-01b143554949-unibankpng.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\a09f47c4-4327-46d5-a177-fe60bd664e72-chelebi.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\a09f47c4-4327-46d5-a177-fe60bd664e72-chelebi.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\a2219ac4-d704-4ee5-8f53-aa5c4b104b6e-bg.png",
+      "PackagePath": "staticwebassets\\assets\\image\\a2219ac4-d704-4ee5-8f53-aa5c4b104b6e-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\a41cba20-dae2-4b41-81f4-f07c112c48c4-beatrice.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\a41cba20-dae2-4b41-81f4-f07c112c48c4-beatrice.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\a76c116a-290b-4a5d-95a1-ba5d4f4c4aed-optimal.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\a76c116a-290b-4a5d-95a1-ba5d4f4c4aed-optimal.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\a79081cf-75c6-458a-aa96-353d9b83f575-goldenrose.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\a79081cf-75c6-458a-aa96-353d9b83f575-goldenrose.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\ad26b9e7-0bd3-489a-8460-c88826a58463-adore.png",
+      "PackagePath": "staticwebassets\\assets\\image\\ad26b9e7-0bd3-489a-8460-c88826a58463-adore.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\adif.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\adif.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\albali debet.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\albali debet.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\albali.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\albali.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\albali_new_debit.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\albali_new_debit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\app-gallery.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\app-gallery.svg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\appbar2.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\appbar2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\apple-touch-icon.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\apple-touch-icon.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\appstore.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\appstore.svg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\b1821ccd-238b-4815-afbb-ec579a56f3b8-unibankpng.png",
+      "PackagePath": "staticwebassets\\assets\\image\\b1821ccd-238b-4815-afbb-ec579a56f3b8-unibankpng.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\b4e1edaa-77b7-4a19-80a0-7dcd42f87845-unibankpng.png",
+      "PackagePath": "staticwebassets\\assets\\image\\b4e1edaa-77b7-4a19-80a0-7dcd42f87845-unibankpng.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\banker.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\banker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\c3730c69-9a24-499b-9139-d7b69c21ae15-baku karting.png",
+      "PackagePath": "staticwebassets\\assets\\image\\c3730c69-9a24-499b-9139-d7b69c21ae15-baku karting.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\calculator1.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\calculator1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\callcenter.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\callcenter.svg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\cd56fcd1-6c7d-42cb-8ddf-5cb5fcbd795e-pizzahut.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\cd56fcd1-6c7d-42cb-8ddf-5cb5fcbd795e-pizzahut.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\contact.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\contact.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\coverphoto.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\coverphoto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\d88aba67-c04c-4c48-9be6-79ffa95a53c9-kfc.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\d88aba67-c04c-4c48-9be6-79ffa95a53c9-kfc.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\digital.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\digital.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\e093282c-6e45-4a0e-8fa5-f99639a94526-maxi.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\e093282c-6e45-4a0e-8fa5-f99639a94526-maxi.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\eldar.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\eldar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\euromoney.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\euromoney.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\europan.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\europan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\faiq.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\faiq.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\fc96f583-5c6e-4195-97b5-a4bcd2c0b41f-yvesdelorme.png",
+      "PackagePath": "staticwebassets\\assets\\image\\fc96f583-5c6e-4195-97b5-a4bcd2c0b41f-yvesdelorme.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\infinite.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\infinite.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\info.png",
+      "PackagePath": "staticwebassets\\assets\\image\\info.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\infobank.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\infobank.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\location.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\location.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\image\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\logo_unibank.png",
+      "PackagePath": "staticwebassets\\assets\\image\\logo_unibank.png"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\logonew-orange1.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\logonew-orange1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\mbe.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\mbe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\msp.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\msp.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\mwe.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\mwe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\o_1g04kl6mn107c1a6lc6btp4pfda.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\o_1g04kl6mn107c1a6lc6btp4pfda.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\platinium.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\platinium.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\playstore.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\playstore.svg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\smile.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\smile.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\tfr.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\tfr.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\ucard gift.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\ucard gift.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\ucard.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\ucard.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\ucardjpg.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\ucardjpg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\unimiles.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\unimiles.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\unitransfer.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\unitransfer.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\western.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\western.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\image\\zkorona.webp",
+      "PackagePath": "staticwebassets\\assets\\image\\zkorona.webp"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\js\\account.js",
+      "PackagePath": "staticwebassets\\assets\\js\\account.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\assets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\js\\cashback.js",
+      "PackagePath": "staticwebassets\\assets\\js\\cashback.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\js\\chat.js",
+      "PackagePath": "staticwebassets\\assets\\js\\chat.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\js\\currency.js",
+      "PackagePath": "staticwebassets\\assets\\js\\currency.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\js\\locations.js",
+      "PackagePath": "staticwebassets\\assets\\js\\locations.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\js\\login.js",
+      "PackagePath": "staticwebassets\\assets\\js\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\js\\news.js",
+      "PackagePath": "staticwebassets\\assets\\js\\news.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\js\\slider.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slider.js"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\pdf\\contact.pdf",
+      "PackagePath": "staticwebassets\\assets\\pdf\\contact.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\pdf\\digital.pdf",
+      "PackagePath": "staticwebassets\\assets\\pdf\\digital.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\pdf\\individual.pdf",
+      "PackagePath": "staticwebassets\\assets\\pdf\\individual.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\pdf\\legal.pdf",
+      "PackagePath": "staticwebassets\\assets\\pdf\\legal.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\pdf\\plastic.pdf",
+      "PackagePath": "staticwebassets\\assets\\pdf\\plastic.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\pdf\\unitransfer.pdf",
+      "PackagePath": "staticwebassets\\assets\\pdf\\unitransfer.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\pdf\\western.pdf",
+      "PackagePath": "staticwebassets\\assets\\pdf\\western.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Acer\\Desktop\\Unibank\\Unibank.MVC\\wwwroot\\assets\\pdf\\zkorona.pdf",
+      "PackagePath": "staticwebassets\\assets\\pdf\\zkorona.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Unibank.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Unibank.MVC.props",
+      "PackagePath": "build\\Unibank.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Unibank.MVC.props",
+      "PackagePath": "buildMultiTargeting\\Unibank.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Unibank.MVC.props",
+      "PackagePath": "buildTransitive\\Unibank.MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

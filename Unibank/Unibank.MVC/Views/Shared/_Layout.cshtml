@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="icon" href="~/assets/image/apple-touch-icon.webp">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="~/assets/css/style.css">
+</head>
+<body>
+    <div class="web_app">
+        <!-- Header -->
+        <header>
+            @await Component.InvokeAsync("Header")
+            <!-- Header search panel -->
+            <div class="custom_container">
+                <div class="search_panel d-none">
+                    <i class="fa-solid fa-xmark close"></i>
+                    <p>Axtarış</p>
+                    <form action="" class="d-inline-block mx-auto">
+                        <input type="text" id="commonSearch" class="w-100 px-4 rounded-5">
+                        <i class="fa-solid fa-magnifying-glass loop"></i>
+                    </form>
+                    <div class="hidden_panel">
+                        <p class="w-50 mx-auto text-center">
+                            <span>Məhsullar</span>
+                            <span>Xəbərlər</span>
+                            <span>Digər</span>
+                        </p>
+                        <a href="#">Bütün nəticələr</a>
+                    </div>
+                    <h6 id="searchResult" style="position:absolute; top:240px; z-index:695"></h6>
+                </div>
+            </div>
+            <!-- End of the header search panel -->
+        </header>
+        <!-- End of the header -->
+        <div>
+            @RenderBody()
+        </div>
+        <!-- Footer -->
+        @await Component.InvokeAsync("Footer")
+        <!-- End of the footer -->
+        <div class="custom_container">
+            <!-- Chat box -->
+            <i class="fa-solid fa-message chat_icon"></i>
+            <div class="unibank_chat d-none">
+                <div class="chat_header">
+                    <span class="options">...</span>
+                    <span class="chat_title">Online konsultasiyaya xoş gəlmisiniz!</span>
+                    <i class="fa-solid fa-xmark close_chat"></i>
+                    <div class="chat_options d-none">
+                        <div class="change_options">
+                            <p class="envelope"><i class="fa-regular fa-envelope"></i><span>Hesabatı göndərmək</span></p>
+                            <p class="volume"><i class="fa-solid fa-volume-high max_volume"></i><i class="fa-solid fa-volume-xmark min_volume d-none"></i><span>Sounds</span></p>
+                            <div class="volume_options">
+                                <div class="change_volume"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat_body">
+                    <i class="fa-regular fa-user chat_user"></i>
+                    <h5>Unibankın online konsultasiyasına xoş gəldiniz!</h5>
+                    <h6>Adınız</h6>
+                    <input type="text">
+                    <h6>E-mail:</h6>
+                    <input type="text">
+                    <h6>Əlaqə nömrəniz:</h6>
+                    <input type="text">
+                    <h6>Sual:</h6>
+                    <input type="text">
+                    <button type="submit">Çata başlayın</button>
+                </div>
+            </div>
+            <!-- End of the chat box -->
+        </div>
+    </div>
+    <script src="~/assets/js/app.js"></script>
+    <script src="~/assets/js/slider.js"></script>
+    <script src="~/assets/js/currency.js"></script>
+    <script src="~/assets/js/chat.js"></script>
+    <script src="~/assets/js/cashback.js"></script>
+    <script src="~/assets/js/locations.js"></script>
+    <script src="~/assets/js/news.js"></script>
+</body>
+</html>

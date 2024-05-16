@@ -1,0 +1,187 @@
+﻿
+@{
+    ViewData["Title"] = "Bank haqqında / Unibank";
+}
+@{
+    AboutViewModel model = Model;
+    var topInfoBoxes = model.TopInfoBoxes;
+    var bottomInfoBoxes = model.BottomInfoBoxes;
+    var unibankMainValues = model.UnibankMainValues;
+    var aboutBanners = model.AboutBanners;
+    var aboutPageBoxes = model.AboutPageBoxes;
+    var banks = model.Banks;
+    var awards = model.Awards;
+    var licences = model.Licenses;
+    var contactCordinates = model.ContactCordinates;
+    var briefInfos = model.BriefInfos;
+}
+
+<main>
+    <section>
+        <div class="custom_container">
+            <div class="page_title">
+                <h1>Bank haqqında</h1>
+            </div>
+            <div class="bank_info">
+                @foreach(var topInfoBox in topInfoBoxes)
+                {
+                    <p>@topInfoBox.Description</p>
+                }
+                <div class="main_value">
+                    <h2>Unibankın əsas dəyərləri:</h2>
+                    <div class="values">
+                        @foreach(var unibankMainValue in unibankMainValues)
+                        {
+                            <p>— @unibankMainValue.Title</p>
+                        }
+                    </div>
+                </div>
+                @foreach(var bottomInfoBox in bottomInfoBoxes)
+                {
+                    <p>@bottomInfoBox.Description</p>
+                    <p class="refresh">Yenilənmə tarixi - @bottomInfoBox.BroadcastDate</p>
+                }
+            </div>
+            @foreach(var aboutBanner in aboutBanners)
+            {
+                <div class="bank_banner row">
+                    <div class="banner_icon col-lg-1">
+                        <i class="@aboutBanner.Icon"></i>
+                    </div>
+                    <div class="banner_info col-lg-11">
+                        @aboutBanner.Context
+                    </div>
+                </div>
+            }
+            <div class="bank_boxes row">
+                @foreach(var aboutPageBox in aboutPageBoxes)
+                {
+                    <div class="col-lg-4">
+                        <div class="bank_box" data-about="@aboutPageBox.PageUrl">
+                            <div class="bank_icon">
+                                <i class="@aboutPageBox.Icon"></i>
+                            </div>
+                            <div class="bank_content">
+                                <h1>@aboutPageBox.Title</h1>
+                                <p>@aboutPageBox.Description</p>
+                            </div>
+                            <i class="fa-solid fa-chevron-right right_arrow d-none"></i>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="bottom_box row">
+                <div class="col-lg-4">
+                    <div class="box">
+                        <div class="box_title">
+                            <h1>Lisenziyalar</h1>
+                        </div>
+                        <div class="box_info">
+                            @foreach(var licence in licences)
+                            {
+                                @licence.Description <br><br>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box">
+                        <div class="box_title">
+                            <h1>Əlaqə koordinatları</h1>
+                        </div>
+                        <div class="box_info">
+                            @foreach(var contactCordinate in contactCordinates)
+                            {
+                                <strong>Hüquqi ünvan:</strong>
+                                <br>
+                                @Html.Raw(contactCordinate.Address)
+                                <br><br>
+                                @Html.Raw(contactCordinate.PhoneNuber)
+                                <br><br>
+                                <span>E-mail:</span> @Html.Raw(contactCordinate.Email)
+                                <br>
+                                <span>Web:</span>@Html.Raw(contactCordinate.Web)
+                                <br><br>
+                                <span>S.W.I.F.T.</span>@Html.Raw(contactCordinate.SWIFT)
+                                <br>
+                                <span>VÖEN</span>@Html.Raw(contactCordinate.VOEN)
+                                <br><br>
+                                <strong>Kənar auditor haqda məlumat:</strong>
+                                <br>
+                                @Html.Raw(contactCordinate.Auditor)
+                                <br>
+                                @Html.Raw(contactCordinate.AuditorAddress)
+                                <br>
+                                <span>T:</span>@Html.Raw(contactCordinate.AuditorNumber)
+                                <br><br>
+                                <strong>Beynəlxalq münasibətlər şöbəsi:</strong>
+                                <br>
+                                @Html.Raw(contactCordinate.SectionEmail)
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box">
+                        <div class="box_title">
+                            <h1>Qısa məlumat</h1>
+                        </div>
+                        <div class="box_info">
+                            @foreach(var briefInfo in briefInfos)
+                            {
+                                @briefInfo.Info
+                                <br><br>
+                                <strong>Tam adı:</strong>
+                                <br>
+                                @briefInfo.Fullname
+                                <br><br>
+                                <strong> Qısa:</strong>
+                                <br>
+                                @briefInfo.ShortName
+                                <br><br>
+                                <strong>Təşkilati - hüquqi forması:</strong>
+                                <br>
+                                @briefInfo.LegalForm
+                                <br><br>
+                                <strong>Qeydiyyat tarixi:</strong>
+                                <br>
+                                @briefInfo.RegistrationDate
+                                <br><br>
+                                <strong>Ticarət nişanı:</strong>
+                                <br>
+                                @briefInfo.Trademark
+                                <br><br>
+                                <strong>Törəmə şirkətlər:</strong >
+                                <br>
+                                <a href = "#">@briefInfo.Subsidiaries </a >
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="awards">
+                <div class="awards_title">
+                    <h1>Mükafatlar</h1>
+                </div>
+                <div class="awards_boxes row">
+                    @foreach(var bank in banks)
+                    {
+                        <div class="col-lg-3 col-6">
+                            <div class="box">
+                                <div class="box_image">
+                                    <img src="~/assets/image/@bank.Image" alt="">
+                                </div>
+                                <div class="box_info">
+                                    @foreach(var award in awards.Where(x => x.BankId == bank.Id))
+                                    {
+                                        @award.Title <br><br>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

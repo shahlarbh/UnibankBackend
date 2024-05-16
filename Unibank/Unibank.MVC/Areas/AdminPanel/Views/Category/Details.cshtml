@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = $"{Model.Name}";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model Category
+
+<div class="col-md-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Category</h4>
+            <p class="card-description">
+                @Model.Name
+            </p>
+            @foreach (var item in Model.Partners)
+            {
+                <p style="font-size:20px;">@item.Name</p>
+            }
+        </div>
+    </div>
+</div>

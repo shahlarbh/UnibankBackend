@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewData["Title"] = "Tariflər / Unibank";
+}
+@{
+    TarifsViewModel model = Model;
+    var tarifs = model.Tarifs;
+}
+
+<main>
+    <section>
+        <div class="custom_container">
+            <div class="tarifs_title">
+                <h1>Tariflər</h1>
+            </div>
+            <div class="tarifs">
+                @foreach (var tarif in tarifs)
+                {
+                    <div class="tarif_box row">
+                        <div class="tarif_info col-lg-10 col-11">
+                            <h2>@tarif.TarifTitle</h2>
+                            <p>@tarif.PdfSize, @tarif.BroadcastDate</p>
+                        </div>
+                        <div class="tarif_link col-lg-2 col-1">
+                            <a href="~/assets/pdf/@tarif.TarifPdf" target="_blank"><span>Yüklə</span><i class="fa-solid fa-down-long"></i></a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+</main>
+
+

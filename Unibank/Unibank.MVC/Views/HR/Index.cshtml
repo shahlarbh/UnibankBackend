@@ -1,0 +1,109 @@
+﻿
+@{
+    ViewData["Title"] = "Ümumi məlumat / İnsan resursları / Unibank";
+}
+@{
+    HRViewModel model = Model;
+    var pageLinks = model.PageLinks;
+    var bannerVideos = model.BannerVideos;
+    var pageBoxes = model.PageBoxes;
+    var managers = model.Managers;
+    var aboutUs = model.Abouts;
+    var bankAdvantages = model.BankAdvantages;
+    var mainValues = model.MainValues;
+}
+
+<main>
+    <section>
+        <div class="custom_container">
+            <div class="page_title">
+                <h1>İnsan resursları</h1>
+            </div>
+            <div class="hr_links">
+                @foreach(var pageLink in pageLinks)
+                {
+                    <a href="@pageLink.PageUrl">@pageLink.PageTitle</a>
+                }
+            </div>
+            @foreach(var bannerVideo in bannerVideos)
+            {
+                <div class="unibank_video" style="background-image: url(/assets/image/@bannerVideo.BackgroundImage);" onclick="playVideo()">
+                    <iframe src="@bannerVideo.VideoUrl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <i class="fa-solid fa-circle-play"></i>
+                </div>
+            }
+            <div class="hr_information row g-4">
+                @foreach(var pageBox in pageBoxes)
+                {
+                    <div class="col-lg-4">
+                        <div class="box" data-hr="@pageBox.PageUrl">
+                            <div class="icon">
+                                <i class="@pageBox.Icon"></i>
+                            </div>
+                            <div class="info">
+                                <h1>@pageBox.PageTitle</h1>
+                                <p>@pageBox.Description</p>
+                            </div>
+                            <div class="direction d-none">
+                                <i class="fa-solid fa-chevron-right chevron"></i>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="management row">
+                @foreach(var manager in managers)
+                {
+                    <div class="col-lg-6">
+                        <div class="person">
+                            <div class="img">
+                                <img src="~/assets/image/@manager.Image" alt="">
+                            </div>
+                            <div class="info">
+                                <h1>@manager.Fullname</h1>
+                                <span>@manager.Position</span>
+                                <p>@manager.Description</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="about_us">
+                @foreach(var about in aboutUs)
+                {
+                    <h1>@about.Title</h1>
+                    <p>@Html.Raw(about.Description)</p>
+                }
+            </div>
+            <div class="extention row">
+                @foreach(var bankAdvantage in bankAdvantages)
+                {
+                    <div class="col-lg-3">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa-regular fa-circle-check"></i>
+                            </div>
+                            <div class="info">
+                                <h1>@bankAdvantage.Title</h1>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="properties">
+                <h1>Dəyərlərimiz</h1>
+                <div class="boxes row">
+                    @foreach(var mainValue in mainValues)
+                    {
+                        <div class="col-lg-3">
+                            <div class="box">
+                                <h1>@mainValue.Title</h1>
+                                <p>@mainValue.Description</p>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
